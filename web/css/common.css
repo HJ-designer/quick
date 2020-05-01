@@ -1,0 +1,29 @@
+.header{ text-align: center; height: 202px; width: 100%; overflow: hidden; background: url('../images/bg_header.png') no-repeat center bottom; background-size: cover; position: relative; padding-top: 27px; box-sizing: border-box; }
+.header > .logo{ width: 88px; height: 64px; background: url('../images/img_logo.png') no-repeat center; background-size: 100%; text-indent: -999999px; margin: 0 auto; }
+.header .gnb-wrap{ width: 270px; margin: 14px auto 0; }
+.header .gnb-wrap::after{ display: block; clear: both; content:""; }
+.header .gnb-wrap li{ float: left; width: 90px; }
+.header .gnb-wrap li a{ display: block; text-align: center; font-size: 14px; padding-top: 47px; color: #3e9de0; font-weight: 700; }
+.header .gnb-wrap li.order a{ background: url('../images/icon_order.png') no-repeat center 10px; background-size: 39px; }
+.header .gnb-wrap li.mylist a{ background: url('../images/icon_mylist.png') no-repeat center 4px; background-size: 39px; }
+.header .gnb-wrap li.point a{ background: url('../images/icon_point.png') no-repeat center 19px; background-size: 39px; }
+.header .gnb-wrap li.on a{ color: #fdbb2b }
+.header .gnb-wrap li.order.on a{ background: url('../images/icon_order_on.png') no-repeat center 10px; background-size: 39px; }
+.header .gnb-wrap li.mylist.on a{ background: url('../images/icon_mylist_on.png') no-repeat center 4px; background-size: 39px; }
+.header .gnb-wrap li.poin.ont a{ background: url('../images/icon_point_on.png') no-repeat center 19px; background-size: 39px; }
+.header .btn-menu{ position: absolute; width: 26px; height: 15px; top: 72px; right: 20px; background: url('../images/btn_menu.png') no-repeat center; background-size: 100%; text-indent: -99999px; }
+
+.menu-wrap{ position: absolute; display: none; top: 0; right: 0; z-index: 9999; max-width: 780px; width: 80%; height: 100vh; background: #7183ad; text-align: left; }
+.menu-wrap .menu-head{ height: 65px; padding-top: 24px; box-sizing: border-box;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fef9ff+0,ceddff+100 */
+    background: #fef9ff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fef9ff 0%, #ceddff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fef9ff 0%,#ceddff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fef9ff 0%,#ceddff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fef9ff', endColorstr='#ceddff',GradientType=0 ); /* IE6-9 */
+}
+.menu-wrap .menu-head .logo{ width: 88px; height: 18px; display: inline-block; background: url('../images/img_logo2.png') no-repeat center; background-size: 100%; text-indent: -999999px; }
+.menu-wrap .menu-head .btn-close{ float: right; width: 14px; height: 14px; text-indent: -999999px; background: url('../images/btn_close.png') no-repeat center; background-size: 100%; }
+.menu-wrap ul li a{ padding: 7px 20px; display: block; color: #ffffff; font-size: 14px; font-weight: 700; }
+.menu-wrap ul li:first-child a{ padding-top: 21px; }
+.menu-wrap.active{ display: block; }

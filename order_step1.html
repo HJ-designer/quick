@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Quick365</title>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+
+	<!-- css -->
+    <link href="web/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="web/css/layout.css" rel="stylesheet" type="text/css">
+    <link href="web/css/common.css" rel="stylesheet" type="text/css">
+
+    <!-- js -->
+    <script src="web/js/jquery-3.4.1.js"></script>
+    <script src="web/js/common.js"></script>
+    
+</head>
+<body>
+    <div class="header">
+        <h1 class="logo">Quick365 로고</h1>
+        <ul class="gnb-wrap has-padding">
+            <li class="on order"><a href="javascript:void(0);">주문하기</a></li>
+            <li class="mylist"><a href="javascript:void(0);">주문내역</a></li>
+            <li class="point"><a href="javascript:void(0);">적립금</a></li>
+        </ul>
+        <button class="btn-menu">메뉴버튼</button>
+    </div>
+    <div class="menu-wrap">
+        <div class="menu-head has-padding">
+            <h1 class="logo">Quick365 로고</h1>
+            <button class="btn-close">메뉴닫기</button>
+        </div>
+        <ul>
+            <li><a href="javascript:void(0);">이용안내</a></li>
+            <li><a href="javascript:void(0);">자주묻는질문</a></li>
+        </ul>
+    </div>
+    <div class="contents has-padding">
+        <div class="progress-wrap">
+            <ul>
+                <li class="circle on">
+                    <p class="num">1</p>
+                    <p>단계</p>
+                </li>
+                <li class="arr">다음</li>
+                <li class="circle">
+                    <p class="num">2</p>
+                    <p>단계</p>
+                </li>
+                <li class="arr">다음</li>
+                <li class="circle">
+                    <p class="num">3</p>
+                    <p>단계</p>
+                </li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box-head case01">
+                <img src="web/images/icon_user.png" alt="">
+                <p>의뢰인</p>
+            </div>
+            <div class="box-cont">
+                <div class="input-wrap search">
+                    <input type="text" name="" id="" placeholder="주소검색*">
+                    <button class="search-btn"></button>
+                </div>
+                <div class="input-wrap">
+                    <input type="text" name="" id="" placeholder="상세주소">
+                </div>
+                <div class="input-wrap">
+                    <input type="text" name="" id="" placeholder="회사명">
+                </div>
+                <div class="input-wrap col2">
+                    <input type="text" name="" id="" placeholder="연락처*">
+                    <input type="text" name="" id="" placeholder="이름">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head case02">
+                <img src="web/images/icon_start.png" alt="">
+                <p>출발지</p>
+                <button class="btn btn-address" onclick="popOpen('prevDep');dimMaker();bodyHidden();">이전출발지</button>
+                <label for=""><input type="checkbox" name="" id=""><span>의뢰인과 동일</span></label>
+            </div>
+            <div class="box-cont">
+                <div class="input-wrap search">
+                    <input type="text" name="" id="" placeholder="주소검색*">
+                    <button class="search-btn"></button>
+                </div>
+                <div class="input-wrap">
+                    <input type="text" name="" id="" placeholder="상세주소">
+                </div>
+                <div class="input-wrap">
+                    <input type="text" name="" id="" placeholder="회사명">
+                </div>
+                <div class="input-wrap col2">
+                    <input type="text" name="" id="" placeholder="연락처*">
+                    <input type="text" name="" id="" placeholder="이름">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head case03">
+                <img src="web/images/icon_destination.png" alt="">
+                <p>도착지</p>
+                <button class="btn btn-address" onclick="popOpen('prevDes');dimMaker();bodyHidden();">이전출발지</button>
+            </div>
+            <div class="box-cont">
+                <div class="input-wrap search">
+                    <input type="text" name="" id="" placeholder="주소검색*">
+                    <button class="search-btn"></button>
+                </div>
+                <div class="input-wrap">
+                    <input type="text" name="" id="" placeholder="상세주소">
+                </div>
+                <div class="input-wrap">
+                    <input type="text" name="" id="" placeholder="회사명">
+                </div>
+                <div class="input-wrap col2">
+                    <input type="text" name="" id="" placeholder="연락처*">
+                    <input type="text" name="" id="" placeholder="이름">
+                </div>
+            </div>
+        </div>
+        <div class="btn-wrap">
+            <button class="btn btn-next">다음</button>
+        </div>
+
+        <div class="popup pop-addres" id="prevDep">
+            <div class="pop-head">
+                <img src="web/images/icon_start_w.png" alt="">
+                <p>이전출발지</p>
+            </div>
+            <div class="pop-cont has-padding">
+                <ul>
+                    <li class="input-wrap radio">
+                        <label for="prevDep01">
+                            <input type="radio" name="prevDepItem" id="prevDep01">
+                            <p><strong>서울시 강남구 삼성동 123-45</strong></p>
+                            <p><span>가나회사</span><span>홍길동</span><span>010-1234-5678</span></p>
+                        </label>
+                    </li>
+                    <li class="input-wrap radio">
+                        <label for="prevDep02">
+                            <input type="radio" name="prevDepItem" id="prevDep02">
+                            <p><strong>서울시 강남구 삼성동 123-45</strong></p>
+                            <p><span>가나회사</span><span>홍길동</span><span>010-1234-5678</span></p>
+                        </label>
+                    </li>
+                    <li class="input-wrap radio">
+                        <label for="prevDep03">
+                            <input type="radio" name="prevDepItem" id="prevDep03">
+                            <p><strong>서울시 강남구 삼성동 123-45</strong></p>
+                            <p><span>가나회사</span><span>홍길동</span><span>010-1234-5678</span></p>
+                        </label>
+                    </li>
+                </ul>
+                <button class="btn-close" onclick="popClose('prevDep');dimRemove();bodyAuto();">닫기</button>
+            </div>
+        </div>
+        <div class="popup pop-addres" id="prevDes">
+            <div class="pop-head">
+                <img src="web/images/icon_destination_w.png" alt="">
+                <p>이전도착지</p>
+            </div>
+            <div class="pop-cont has-padding">
+                <ul>
+                    <li class="input-wrap radio">
+                        <label for="prevDes01">
+                            <input type="radio" name="prevDesItem" id="prevDes01">
+                            <p><strong>서울시 강남구 삼성동 123-45</strong></p>
+                            <p><span>가나회사</span><span>홍길동</span><span>010-1234-5678</span></p>
+                        </label>
+                    </li>
+                    <li class="input-wrap radio">
+                        <label for="prevDes02">
+                            <input type="radio" name="prevDesItem" id="prevDes02">
+                            <p><strong>서울시 강남구 삼성동 123-45</strong></p>
+                            <p><span>가나회사</span><span>홍길동</span><span>010-1234-5678</span></p>
+                        </label>
+                    </li>
+                    <li class="input-wrap radio">
+                        <label for="prevDes03">
+                            <input type="radio" name="prevDesItem" id="prevDes03">
+                            <p><strong>서울시 강남구 삼성동 123-45</strong></p>
+                            <p><span>가나회사</span><span>홍길동</span><span>010-1234-5678</span></p>
+                        </label>
+                    </li>
+                </ul>
+                <button class="btn-close" onclick="popClose('prevDes');dimRemove();bodyAuto();">닫기</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
