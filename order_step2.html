@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Quick365</title>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+
+	<!-- css -->
+    <link href="web/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="web/css/layout.css" rel="stylesheet" type="text/css">
+    <link href="web/css/common.css" rel="stylesheet" type="text/css">
+    <link href="web/css/contents.css" rel="stylesheet" type="text/css">
+
+    <!-- js -->
+    <script src="web/js/jquery-3.4.1.js"></script>
+    <script src="web/js/common.js"></script>
+    <script src="web/js/script.js"></script>
+    
+</head>
+<body>
+    <div class="header">
+        <h1 class="logo">Quick365 로고</h1>
+        <ul class="gnb-wrap has-padding">
+            <li class="on order"><a href="javascript:void(0);">주문하기</a></li>
+            <li class="mylist"><a href="javascript:void(0);">주문내역</a></li>
+            <li class="point"><a href="javascript:void(0);">적립금</a></li>
+        </ul>
+        <button class="btn-menu">메뉴버튼</button>
+    </div>
+    <div class="menu-wrap">
+        <div class="menu-head has-padding">
+            <h1 class="logo">Quick365 로고</h1>
+            <button class="btn-close">메뉴닫기</button>
+        </div>
+        <ul>
+            <li><a href="javascript:void(0);">이용안내</a></li>
+            <li><a href="javascript:void(0);">자주묻는질문</a></li>
+        </ul>
+    </div>
+    <div class="contents has-padding">
+        <div class="progress-wrap">
+            <ul>
+                <li class="circle">
+                    <p class="num">1</p>
+                    <p>단계</p>
+                </li>
+                <li class="arr">다음</li>
+                <li class="circle on">
+                    <p class="num">2</p>
+                    <p>단계</p>
+                </li>
+                <li class="arr">다음</li>
+                <li class="circle">
+                    <p class="num">3</p>
+                    <p>단계</p>
+                </li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="web/images/icon_type.png" alt="">
+                <p>배송유형</p>
+            </div>
+            <div class="box-cont deli-type has-padding">
+                <div class="input-wrap radio">
+                    <label for="deliTypeItem01">
+                        <input type="radio" name="deliTypeItem" id="deliTypeItem01" checked><span>편도</span>
+                    </label>
+                </div>
+                <div class="input-wrap radio">
+                    <label for="deliTypeItem02">
+                        <input type="radio" name="deliTypeItem" id="deliTypeItem02"><span>왕복</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="web/images/icon_date.png" alt="">
+                <p>배송시기</p>
+            </div>
+            <div class="box-cont deli-time has-padding">
+                <div class="input-wrap radio">
+                    <label for="deliyTimeItem01">
+                        <input type="radio" name="deliyTimeItem" id="deliyTimeItem01" checked><span>일반</span>
+                    </label>
+                </div>
+                <div class="input-wrap radio">
+                    <label for="deliyTimeItem02">
+                        <input type="radio" name="deliyTimeItem" id="deliyTimeItem02"><span>긴급</span>
+                    </label>
+                </div>
+                <div class="input-wrap radio">
+                    <label for="deliyTimeItem03">
+                        <input type="radio" name="deliyTimeItem" id="deliyTimeItem03"><span>출발지예약</span>
+                    </label>
+                </div>
+                <div class="input-wrap reservation-time">
+                    <label for="">예약시간</label>
+                    <input type="text" name="" id="" class="date" placeholder="2020-05-01">
+                    <input type="text" name="" id="" class="time" placeholder="14:00">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="web/images/icon_item.png" alt="">
+                <p>물품종류</p>
+            </div>
+            <div class="box-cont has-padding">
+                <div class="input-wrap select">
+                    <label for="">서류봉투</label>
+                    <select name="" id="">
+                        <option value="">0개</option>
+                        <option value="">1개</option>
+                        <option value="">2개</option>
+                        <option value="">3개</option>
+                        <option value="">4개</option>
+                        <option value="">5개</option>
+                    </select>
+                </div>
+                <div class="input-wrap select">
+                    <label for="">라면박스 이하</label>
+                    <select name="" id="">
+                        <option value="">0개</option>
+                        <option value="">1개</option>
+                        <option value="">2개</option>
+                        <option value="">3개</option>
+                        <option value="">4개</option>
+                        <option value="">5개</option>
+                    </select>
+                </div>
+                <div class="input-wrap select">
+                    <label for="">라면박스 이상</label>
+                    <select name="" id="">
+                        <option value="">0개</option>
+                        <option value="">1개</option>
+                        <option value="">2개</option>
+                        <option value="">3개</option>
+                        <option value="">4개</option>
+                        <option value="">5개</option>
+                    </select>
+                </div>
+                <div class="input-wrap select">
+                    <label for="">특대</label>
+                    <select name="" id="">
+                        <option value="">0개</option>
+                        <option value="">1개</option>
+                        <option value="">2개</option>
+                        <option value="">3개</option>
+                        <option value="">4개</option>
+                        <option value="">5개</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="web/images/icon_calculation.png" alt="">
+                <p>물품무게 및 금액</p>
+            </div>
+            <div class="box-cont has-padding">
+                <div class="input-wrap select">
+                    <label for="">무게</label>
+                    <select name="" id="" class="lg">
+                        <option value="">0~5kg</option>
+                        <option value="">5~10kg</option>
+                        <option value="">10~15kg</option>
+                        <option value="">15~20kg</option>
+                        <option value="">20~25kg</option>
+                        <option value="">25~30kg</option>
+                    </select>
+                </div>
+                <div class="input-wrap won">
+                    <label for="">금액</label>
+                    <input type="text" name="" id="">
+                    <span>원</span>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="web/images/icon_explation.png" alt="">
+                <p>물품설명<span>(옵션)</span></p>
+            </div>
+            <div class="box-cont">
+                <div class="input-wrap">
+                    <textarea name="" id="" placeholder="※ 고가의 물품은 내용물 내용을 정확히 기재하지 않을 경우 파손 및 분실 등의 경우에 책임지지 않습니다."></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="web/images/icon_comment.png" alt="">
+                <p>배송요청사항<span>(옵션)</span></p>
+            </div>
+            <div class="box-cont">
+                <div class="input-wrap">
+                    <textarea name="" id=""></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="btn-wrap">
+            <button class="btn half btn-prev">다음</button>
+            <button class="btn half btn-next">다음</button>
+        </div>
+    </div>
+</body>
+</html>

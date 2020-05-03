@@ -1,0 +1,75 @@
+/* 배송 유형 */
+.box .box-cont.deli-type .input-wrap + .input-wrap{ margin-top: 0; }
+.box .box-cont.deli-type::after{ display: block; clear: both; content:""; }
+.box .box-cont.deli-type .input-wrap.radio{ width: 33.3333%; float: left; }
+.box .box-cont.deli-type .input-wrap.radio label span{ padding-left: 24px; font-size: 14px }
+
+/* 배송 시기 */
+.box .box-cont.deli-time .input-wrap + .input-wrap{ margin-top: 0; }
+.box .box-cont.deli-time::after{ display: block; clear: both; content:""; }
+.box .box-cont.deli-time .input-wrap.radio{ width: 33.3333%; float: left; }
+.box .box-cont.deli-time .input-wrap.radio label span{ padding-left: 24px; font-size: 14px }
+
+/* 예약시간 */
+.input-wrap.reservation-time{ float: left; margin-top: 12px !important; }
+.input-wrap.reservation-time label{ width: 66px; }
+.input-wrap.reservation-time .date{ width: calc(55% - 39px); }
+.input-wrap.reservation-time .time{ width: calc(45% - 39px); margin-left: 12px; }
+
+/* 금액 */
+.input-wrap.won span{ float: left; font-size: 12px; line-height: 42px; height: 42px; padding-left: 5px }
+.input-wrap.won input[type="text"]{ width: calc(100% - 138px); text-align: center; }
+
+/* 주문내역 이미지 영역 */
+.img-success { text-align: center; padding-top: 70px; padding-bottom: 31px; }
+.img-success img{ width: auto; max-width: 100%; }
+
+/* 주문내역 별점 */
+.rating-wrap::after{ display: block; clear: both; content:""; }
+.rating-wrap p{ float: left; width: 21px; height: 20px; background: url('../images/img_star.png') no-repeat center; background-size: 100%; text-indent: -999999px; }
+.rating-wrap p + p{ margin-left: 5px; }
+.rating-wrap p.on{background: url('../images/img_star_on.png') no-repeat center; background-size: 100%;}
+
+/* 고객센터 영역 */
+.cs-wrap{ position: relative; padding-top: 52.15%; background: url('../images/bg_cs.png') no-repeat center; background-size: cover; border-radius: 6px; margin-top: 50px; }
+.cs-wrap img{ position: absolute; width: 42.6%; left: 50%; transform: translateX(-50%); top: -8px; }
+.cs-wrap p{ text-align: center; font-size: 14px; color: #ffffff; position: absolute; bottom: 6.4%; left: 50%; transform: translateX(-50%); width: 100%; }
+.cs-wrap p strong{ font-weight: 700; font-size: 21px; }
+
+/* 적립금 사용 */
+.box.use-saving .box-head span{ float: right; line-height: 52px; height: 52px; font-size: 14px; color: #434343; }
+.box.use-saving .box-cont::after{ display: block; clear: both; content:""; }
+.box.use-saving .box-cont .input-wrap{ width: calc(100% - 115px); float: left; margin-top: 0 !important; }
+.box.use-saving .box-cont .input-wrap input[type="text"]{ width: calc(100% - 23px); text-align: center; }
+.box.use-saving .box-cont .input-wrap input[type="text"] + span{ padding-left: 5px; font-size: 12px; line-height: 42px; height: 42px; }
+.box.use-saving .box-cont .input-wrap.radio{ width: 115px }
+.box.use-saving .box-cont .input-wrap.radio label span{ padding-left: 24px; }
+
+/* 총결제금액 */
+.box.total-payment .box-cont::after{ display: block; clear: both; content:""; }
+.box.total-payment .result::after{ display: block; clear: both; content:""; }
+.box.total-payment .result > *{ float: left; line-height: 30px; height: 30px; }
+.box.total-payment .result span{ font-size: 12px; width: 45px }
+.box.total-payment .result p{ font-size: 20px; font-weight: 700; width: calc(100% - 45px); text-align: center; }
+.box.total-payment .result p span{ font-size: 20px; color: #fdbb2b }
+.box.total-payment .input-wrap.radio{ width: 50%; float: left; }
+.box.total-payment .input-wrap.radio + .input-wrap.radio{ margin-top: 0; }
+.box.total-payment .input-wrap.radio span{ padding-left: 24px; }
+
+/* 자주 묻는 질문 */
+.list-faq .list-wrap ul{ display: table; width: auto; table-layout: fixed; min-width: 100%; max-width: none; }
+.list-faq .list-wrap ul li{ text-overflow: ellipsis; overflow: hidden; white-space: nowrap; display: table-cell; font-size: 14px; padding: 10px 0; min-width: 100%; max-width: 1px; }
+.list-faq .list-wrap ul li.num{ width: 14%; text-align: center; }
+.list-faq .list-wrap ul li.title{ width: 52%; }
+.list-faq .list-wrap ul li.date{ width: 34%; text-align: center; }
+.list-faq .faq-cont{ display: none; }
+.list-faq .faq-cont.on{ display: block; }
+.list-faq .faq-cont .box .box-cont{ padding-top: 12px; }
+.list-faq .faq-cont .box table th,
+.list-faq .faq-cont .box table td{ font-size: 12px; padding: 10px 0; }
+.list-faq .faq-cont .box table th{ text-align: left; }
+
+.input-wrap.radio.w100 label{ width: 100%;  }
+.input-wrap.radio.w100 label span{ padding-left: 24px; }
+
+textarea.agree{ color: #a0a0a0; }
