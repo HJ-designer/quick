@@ -17,7 +17,7 @@
 .input-wrap.reservation-time .time{ width: calc(45% - 39px); margin-left: 12px; }
 
 /* 금액 */
-.input-wrap.won span{ float: left; font-size: 14px; line-height: 42px; height: 42px; padding-left: 5px }
+.input-wrap.won span{ float: left; font-size: 18px; line-height: 42px; height: 42px; padding-left: 5px }
 .input-wrap.won input[type="text"]{ width: calc(100% - 138px); text-align: center; }
 
 /* 주문내역 이미지 영역 */
@@ -33,15 +33,15 @@
 /* 고객센터 영역 */
 .cs-wrap{ position: relative; padding-top: 52.15%; background: url('../images/bg_cs.png') no-repeat center; background-size: cover; border-radius: 6px; margin-top: 50px; }
 .cs-wrap img{ position: absolute; width: 42.6%; left: 50%; transform: translateX(-50%); top: -8px; }
-.cs-wrap p{ text-align: center; font-size: 18px; color: #ffffff; position: absolute; bottom: 6.4%; left: 50%; transform: translateX(-50%); width: 100%; }
-.cs-wrap p strong{ font-weight: 700; font-size: 24px; }
+.cs-wrap p{ text-align: center; font-size: 20px; color: #ffffff; position: absolute; bottom: 6.4%; left: 50%; transform: translateX(-50%); width: 100%; }
+.cs-wrap p strong{ font-weight: 700; font-size: 35px; }
 
 /* 적립금 사용 */
 .box.use-saving .box-head span{ float: right; line-height: 52px; height: 52px; font-size: 18px; color: #434343; }
 .box.use-saving .box-cont::after{ display: block; clear: both; content:""; }
 .box.use-saving .box-cont .input-wrap{ width: calc(100% - 135px); float: left; margin-top: 0 !important; }
 .box.use-saving .box-cont .input-wrap input[type="text"]{ width: calc(100% - 23px); text-align: center; }
-.box.use-saving .box-cont .input-wrap input[type="text"] + span{ padding-left: 5px; font-size: 14px; line-height: 42px; height: 42px; }
+.box.use-saving .box-cont .input-wrap input[type="text"] + span{ padding-left: 5px; font-size: 18px; line-height: 42px; height: 42px; }
 .box.use-saving .box-cont .input-wrap.radio{ width: 135px }
 .box.use-saving .box-cont .input-wrap.radio label{ width: 100% }
 .box.use-saving .box-cont .input-wrap.radio label span{ padding-left: 24px; font-size: 18px; }
@@ -59,7 +59,7 @@
 
 /* 자주 묻는 질문 */
 .list-faq .list-wrap ul{ display: table; width: auto; table-layout: fixed; min-width: 100%; max-width: none; }
-.list-faq .list-wrap ul li{ text-overflow: ellipsis; overflow: hidden; white-space: nowrap; display: table-cell; font-size: 18px; padding: 10px 0; min-width: 100%; max-width: 1px; }
+.list-faq .list-wrap ul li{ text-overflow: ellipsis; overflow: hidden; white-space: nowrap; display: table-cell; font-size: 20px; padding: 10px 0; min-width: 100%; max-width: 1px; }
 .list-faq .list-wrap ul li.num{ width: 14%; text-align: center; }
 .list-faq .list-wrap ul li.title{ width: 52%; }
 .list-faq .list-wrap ul li.date{ width: 34%; text-align: center; }
@@ -67,9 +67,10 @@
 .list-faq .faq-cont.on{ display: block; }
 .list-faq .faq-cont .box .box-cont{ padding-top: 12px; }
 .list-faq .faq-cont .box table th,
-.list-faq .faq-cont .box table td{ font-size: 14px; padding: 10px 0; }
+.list-faq .faq-cont .box table td{ padding: 10px 0; }
 .list-faq .faq-cont .box table th{ text-align: left; padding-left: 0 }
 
+.input-wrap.checkbox.w100{ margin-top: 20px; }
 .input-wrap.checkbox.w100 label{ width: 100%;  }
 .input-wrap.checkbox.w100 label span{ padding-left: 24px; font-size: 18px; }
 

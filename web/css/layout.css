@@ -21,7 +21,7 @@
 .search-date input[type="text"],
 .search-date span,
 .search-date button{ float: left; line-height: 42px; height: 42px; box-sizing: border-box; }
-.search-date input[type="text"]{ width: calc(50% - 47px); border: 1px solid #d2d2d2; border-radius: 6px; box-sizing: border-box; text-align: center; font-size: 14px; }
+.search-date input[type="text"]{ width: calc(50% - 47px); border: 1px solid #d2d2d2; border-radius: 6px; box-sizing: border-box; text-align: center; font-size: 18px; }
 .search-date span{ font-size: 14px; padding: 0 10px; }
 .search-date button{ margin-left: 20px; width: 45px; height: 45px; background: #fdbb2b url('../images/btn_search_w.png') no-repeat center; border-radius: 50%; background-size: 20px; }
 
@@ -29,7 +29,7 @@
 .input-wrap + .input-wrap{ margin-top: 12px; }
 .input-wrap::after{ display: block; content:""; clear: both; }
 .input-wrap input{ width: 100%; }
-.input-wrap input[type="text"]{ border: 1px solid #d2d2d2; height: 42px; float: left; font-size: 16px; padding: 0 12px; box-sizing: border-box; border-radius: 6px; }
+.input-wrap input[type="text"]{ border: 1px solid #d2d2d2; height: 42px; float: left; font-size: 18px; padding: 0 12px; box-sizing: border-box; border-radius: 6px; }
 .input-wrap input[type="text"]::placeholder{ color: #a0a0a0; }
 .input-wrap input[type="text"]::-webkit-input-placeholder{ color: #a0a0a0; }
 .input-wrap input[type="text"]:-ms-input-placeholder{ color: #a0a0a0; }
@@ -40,7 +40,7 @@
 .input-wrap input[type="checkbox"]{ width: 0; height: 0; display: none; }
 .input-wrap label input[type="checkbox"] + *::before{ position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 20px; height: 20px; content:""; display: block; background: url('../images/icon_check_off.png') no-repeat center; background-size: 100%; }
 .input-wrap label input[type="checkbox"]:checked + *::before{ background: url('../images/icon_check_on.png') no-repeat center; background-size: 100%; }
-.input-wrap select{ width: 100px; background: #ffffff; border: 1px solid #d2d2d2; border-radius: 6px; line-height: 42px; height: 42px; font-size: 14px; padding: 0 20px; box-sizing: border-box; background: url('../images/icon_arrow_select.png') no-repeat 70px center; background-size: 12px; }
+.input-wrap select{ width: 100px; background: #ffffff; border: 1px solid #d2d2d2; border-radius: 6px; line-height: 42px; height: 42px; font-size: 18px; padding: 0 20px; box-sizing: border-box; background: url('../images/icon_arrow_select.png') no-repeat 70px center; background-size: 12px; }
 .input-wrap select.lg{ width: 110px; background-position: 85px center; }
 .input-wrap textarea{ border: 1px solid #d2d2d2; border-radius: 6px; width: 100%; resize: none; height: 84px; font-size: 16px; padding: 10px; box-sizing: border-box;  }
 .input-wrap textarea::placeholder{ color: #a0a0a0; }
@@ -57,7 +57,7 @@
 .input-wrap.half input[type="text"] + input[type="text"]{ margin-left: 12px; }
 
 .btn-wrap{ padding-top: 40px; }
-.btn-wrap .btn{ height: 45px; line-height: 45px; text-align: center; border-radius: 22px; color: #ffffff; width: 100%; font-weight: 700; font-size: 18px; }
+.btn-wrap .btn{ height: 45px; line-height: 45px; text-align: center; border-radius: 22px; color: #ffffff; width: 100%; font-weight: 700; font-size: 24px; }
 .btn-wrap .btn.half{ width: calc(50% - 10px); float: left; }
 .btn-wrap .btn.half + .btn.half{ margin-left: 20px; }
 .btn-wrap .btn.btn-next{ background: #fdbb2b url('../images/icon_arrow_next.png') no-repeat 62% center; background-size: 24px; }
@@ -75,7 +75,7 @@
 .box + .box{ margin-top: 40px; }
 .box .box-head{ height: 55px; position: relative; }
 .box .box-head::after{ display: block; clear: both; content:""; }
-.box .box-head p{ font-size: 18px; line-height: 55px; font-weight: 700; float: left; }
+.box .box-head p{ font-size: 20px; line-height: 55px; font-weight: 700; float: left; }
 .box .box-head span{ font-size: 14px; color: #a0a0a0; padding-left: 5px; }
 .box .box-head button{ line-height: 24px; height: 24px; text-align: center; background: #a3bbf6; border-radius: 20px; color: #ffffff; font-size: 14px; padding: 0 12px; position: absolute; top: 50%; transform: translate(5px, -50%); }
 .box .box-head label{ position: absolute; top: 50%; transform: translateY(-50%); right: 0;color: #a0a0a0; font-size: 14px; }
@@ -92,9 +92,9 @@
 .box table .ta-r{ text-align: right; }
 .box table th,
 .box table td{ padding: 3px 0 }
-.box table th{ font-size: 14px; font-weight: 400; padding-left: 15px; text-align: center; }
-.box table td{ font-weight: 700; font-size: 16px; }
-.box table tfoot td{ font-size: 20px; padding: 10px 0 }
+.box table th{ font-size: 18px; font-weight: 400; padding-left: 5px; text-align: center; }
+.box table td{ font-weight: 700; font-size: 20px; }
+.box table tfoot td{ font-size: 24px; padding: 10px 0 }
 
 .pop-addres{ display: none; z-index: 9999; }
 .pop-addres.on{ display: block; }
@@ -115,14 +115,14 @@
 .pop-addres .pop-cont ul li label p{ font-size: 16px; padding-left: 12px; }
 .pop-addres .pop-cont .btn-close{ height: 42px; line-height: 42px; text-align: center; font-size: 16px; color: #ffffff; background: #434343; margin: 20px auto 8px; border-radius: 18px; width: 90px; display: block; }
 
-.table-list thead tr th{ background: #eeeeee; color: #a0a0a0; font-size: 16px; text-align: center; padding: 10px 0; font-weight: 400; }
-.table-list tbody tr td{ font-size: 16px; text-align: center; padding: 10px 0; }
+.table-list thead tr th{ background: #eeeeee; color: #a0a0a0; font-size: 18px; text-align: center; padding: 10px 0; font-weight: 400; }
+.table-list tbody tr td{ font-size: 20px; text-align: center; padding: 10px 0; }
 .table-list .ta-r{ text-align: right; }
 
 .table-data th,
-.table-data td{ padding: 10px 0; vertical-align: top; font-size: 16px !important; text-align: left; }
+.table-data td{ padding: 10px 0; vertical-align: top; font-size: 18px !important; text-align: left; }
 .table-data th{ color: #3e9de0; }
-.table-data th span{ font-size: 10px; }
+.table-data th span{ font-size: 14px; }
 .table-data textarea{ border: 1px solid #d2d2d2; border-radius: 6px; width: 100%; resize: none; height: 84px; font-size: 14px; padding: 10px; box-sizing: border-box;  }
 .table-data textarea::placeholder{ color: #a0a0a0; }
 .table-data textarea::-webkit-input-placeholder{ color: #a0a0a0; }
@@ -141,4 +141,4 @@
 .table-data .npt{ padding-top: 0 }
 .table-data .npb{ padding-bottom: 0 }
 
-.txt-guide{ color: #3e9de0; font-size: 14px; }
+.txt-guide{ color: #3e9de0; font-size: 18px; }
