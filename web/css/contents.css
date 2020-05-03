@@ -2,23 +2,23 @@
 .box .box-cont.deli-type .input-wrap + .input-wrap{ margin-top: 0; }
 .box .box-cont.deli-type::after{ display: block; clear: both; content:""; }
 .box .box-cont.deli-type .input-wrap.radio{ width: 33.3333%; float: left; }
-.box .box-cont.deli-type .input-wrap.radio label span{ padding-left: 24px; font-size: 18px }
+.box .box-cont.deli-type .input-wrap.radio label span{ padding-left: 24px; font-size: 16px }
 
 /* 배송 시기 */
 .box .box-cont.deli-time .input-wrap + .input-wrap{ margin-top: 0; }
 .box .box-cont.deli-time::after{ display: block; clear: both; content:""; }
 .box .box-cont.deli-time .input-wrap.radio{ width: 33.3333%; float: left; }
-.box .box-cont.deli-time .input-wrap.radio label span{ padding-left: 24px; font-size: 18px }
+.box .box-cont.deli-time .input-wrap.radio label span{ padding-left: 24px; font-size: 16px }
 
 /* 예약시간 */
 .input-wrap.reservation-time{ float: left; margin-top: 12px !important; }
-.input-wrap.reservation-time label{ width: 66px; }
-.input-wrap.reservation-time .date{ width: calc(55% - 39px); }
-.input-wrap.reservation-time .time{ width: calc(45% - 39px); margin-left: 12px; }
+.input-wrap.reservation-time label{ width: 80px; }
+.input-wrap.reservation-time .date{ width: calc(57% - 46px); text-align: center; }
+.input-wrap.reservation-time .time{ width: calc(43% - 46px); text-align: center; margin-left: 12px; }
 
 /* 금액 */
-.input-wrap.won span{ float: left; font-size: 18px; line-height: 42px; height: 42px; padding-left: 5px }
-.input-wrap.won input[type="text"]{ width: calc(100% - 138px); text-align: center; }
+.input-wrap.won span{ float: left; font-size: 16px; line-height: 50px; height: 50px; padding-left: 5px }
+.input-wrap.won input[type="text"]{ width: calc(100% - 163px); text-align: center; }
 
 /* 주문내역 이미지 영역 */
 .img-success { text-align: center; padding-top: 70px; padding-bottom: 31px; }
@@ -26,7 +26,7 @@
 
 /* 주문내역 별점 */
 .rating-wrap::after{ display: block; clear: both; content:""; }
-.rating-wrap p{ float: left; width: 21px; height: 20px; background: url('../images/img_star.png') no-repeat center; background-size: 100%; text-indent: -999999px; }
+.rating-wrap p{ float: left; width: 25px; height: 25px; background: url('../images/img_star.png') no-repeat center; background-size: 100%; text-indent: -999999px; }
 .rating-wrap p + p{ margin-left: 5px; }
 .rating-wrap p.on{background: url('../images/img_star_on.png') no-repeat center; background-size: 100%;}
 
@@ -37,29 +37,29 @@
 .cs-wrap p strong{ font-weight: 700; font-size: 35px; }
 
 /* 적립금 사용 */
-.box.use-saving .box-head span{ float: right; line-height: 52px; height: 52px; font-size: 18px; color: #434343; }
+.box.use-saving .box-head span{ float: right; line-height: 65px; height: 65px; font-size: 16px; color: #434343; }
 .box.use-saving .box-cont::after{ display: block; clear: both; content:""; }
 .box.use-saving .box-cont .input-wrap{ width: calc(100% - 135px); float: left; margin-top: 0 !important; }
-.box.use-saving .box-cont .input-wrap input[type="text"]{ width: calc(100% - 23px); text-align: center; }
-.box.use-saving .box-cont .input-wrap input[type="text"] + span{ padding-left: 5px; font-size: 18px; line-height: 42px; height: 42px; }
-.box.use-saving .box-cont .input-wrap.radio{ width: 135px }
+.box.use-saving .box-cont .input-wrap input[type="text"]{ width: calc(100% - 21px); text-align: center; }
+.box.use-saving .box-cont .input-wrap input[type="text"] + span{ padding-left: 5px; font-size: 16px; line-height: 50px; height: 50px; }
+.box.use-saving .box-cont .input-wrap.radio{ width: 135px; padding-left: 12px; box-sizing: border-box; }
 .box.use-saving .box-cont .input-wrap.radio label{ width: 100% }
-.box.use-saving .box-cont .input-wrap.radio label span{ padding-left: 24px; font-size: 18px; }
+.box.use-saving .box-cont .input-wrap.radio label span{ padding-left: 24px; font-size: 16px; }
 
 /* 총결제금액 */
 .box.total-payment .box-cont::after{ display: block; clear: both; content:""; }
 .box.total-payment .result::after{ display: block; clear: both; content:""; }
 .box.total-payment .result > *{ float: left; line-height: 30px; height: 30px; }
-.box.total-payment .result span{ font-size: 18px; width: 70px }
+.box.total-payment .result span{ font-size: 16px; width: 70px }
 .box.total-payment .result p{ font-size: 24px; font-weight: 700; width: calc(100% - 70px); text-align: center; }
 .box.total-payment .result p span{ font-size: 24px; color: #fdbb2b }
 .box.total-payment .input-wrap.radio{ width: 50%; float: left; }
 .box.total-payment .input-wrap.radio + .input-wrap.radio{ margin-top: 0; }
-.box.total-payment .input-wrap.radio span{ padding-left: 24px; font-size: 18px; }
+.box.total-payment .input-wrap.radio span{ padding-left: 24px; font-size: 16px; }
 
 /* 자주 묻는 질문 */
 .list-faq .list-wrap ul{ display: table; width: auto; table-layout: fixed; min-width: 100%; max-width: none; }
-.list-faq .list-wrap ul li{ text-overflow: ellipsis; overflow: hidden; white-space: nowrap; display: table-cell; font-size: 20px; padding: 10px 0; min-width: 100%; max-width: 1px; }
+.list-faq .list-wrap ul li{ text-overflow: ellipsis; overflow: hidden; white-space: nowrap; display: table-cell; font-size: 16px; padding: 10px 0; min-width: 100%; max-width: 1px; }
 .list-faq .list-wrap ul li.num{ width: 14%; text-align: center; }
 .list-faq .list-wrap ul li.title{ width: 52%; }
 .list-faq .list-wrap ul li.date{ width: 34%; text-align: center; }
@@ -72,6 +72,6 @@
 
 .input-wrap.checkbox.w100{ margin-top: 20px; }
 .input-wrap.checkbox.w100 label{ width: 100%;  }
-.input-wrap.checkbox.w100 label span{ padding-left: 24px; font-size: 18px; }
+.input-wrap.checkbox.w100 label span{ padding-left: 24px; font-size: 16px; }
 
 textarea.agree{ color: #a0a0a0; }
